@@ -1,0 +1,57 @@
+.Post{
+    /* display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center; */
+    width: 90%;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 4px #ccc;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.Post main{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.Post item{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;    
+}
+
+.Post footer{
+    color: #c0c0c0;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    font-size: 0.8em;
+}
+
+.CardHead{
+    background-color: #208bee;
+    color: #ffffff;
+}
+
+.CardBody{
+    color: black;
+    padding-bottom: 10px;
+}
+
+.Test{
+    background-color: #208bee;
+    display:flex;
+    justify-content: space-around;
+}
+
+.Duty{
+    font-size:1.2em;
+}
+
+.arrow-right{
+    width:0
+}

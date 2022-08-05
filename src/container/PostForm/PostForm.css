@@ -1,0 +1,82 @@
+/* background */
+.PostForm{
+    position: fixed;
+    box-sizing: border-box;
+    width: 90%;
+    height: 90%;
+    top:5%;
+    left:5%;
+    background-color: white;
+    padding: 20px;
+    z-index: 200;
+    overflow: scroll;
+}
+
+/* main container, contain all input sections */
+.PostForm form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+/* section for offer */
+.Offer{
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    background-color: azure;
+    border-color: #ff0000;
+    border-width: 5px;
+    padding: 5px;
+}
+
+/* section for request */
+.Request{
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+}
+
+/* general format for all input item */
+.InputSection{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    vertical-align: text-bottom;
+}
+
+.InputSection p{
+    margin-right: 5px;
+}
+
+.InputBox{
+    height: 20px;
+    width: 80px;
+    font-size: 0.8em;
+    margin-right: 5px;
+    background-color: transparent; 
+    border-color: transparent;
+    border-bottom: 2px solid #40A4C8;
+}
+
+.PostForm footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.PostForm footer button{
+    color: white;
+    background-color: #747474;
+    box-shadow: 2px 2px 4px #ccc;
+    border-radius: 5px;
+    border-color: white;
+    margin-left: 10px; 
+}
+
+.DatePicker{
+    background-color: transparent;
+}
+
+.oType{
+    text-transform: capitalize;
+}
